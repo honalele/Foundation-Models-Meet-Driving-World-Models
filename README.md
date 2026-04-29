@@ -7,7 +7,7 @@
   <a href="#citation"><img src="https://img.shields.io/badge/Citation-BibTeX-blue.svg" alt="Citation"></a>
   <img src="https://img.shields.io/badge/Papers-110%2B-brightgreen.svg" alt="Papers">
   <img src="https://img.shields.io/badge/Coverage-2023--2026-orange.svg" alt="Coverage">
-  <img src="https://img.shields.io/badge/Venue-IEEE%20OJ--ITS-9cf.svg" alt="Venue">
+  <img src="https://img.shields.io/badge/Manuscript-Planned%3A%20IEEE%20OJ--ITS-lightgrey.svg" alt="Manuscript: planned submission to IEEE OJ-ITS">
   <img src="https://img.shields.io/badge/PRs-Welcome-success.svg" alt="PRs Welcome">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
   <img src="https://img.shields.io/github/stars/xxxxx/Foundation-Models-Meet-Driving-World-Models?style=social" alt="Stars">
@@ -29,6 +29,8 @@
   <a href="#contributing">Contributing</a> •
   <a href="#citation">Citation</a>
 </p>
+
+> **Manuscript status.** This survey is **not yet peer-reviewed or published**. We **plan to submit** it to the *IEEE Open Journal of Intelligent Transportation Systems* (OJ-ITS). This repository may describe work in advance of the journal version; we will update badges, links, and the [citation](#citation) block once the official venue and DOI are fixed.
 
 ---
 
@@ -63,7 +65,7 @@ Yet the existing surveys leave clear gaps:
 
 ## What's New
 
-- **2026-04** — Initial release of the survey and this repository (110+ papers, 4-role taxonomy, full benchmark / industry-platform analysis).
+- **2026-04** — Initial public release of this **manuscript** and repository companion (110+ papers, 4-role taxonomy, benchmark / industry-platform notes). Target journal: IEEE OJ-ITS (submission planned; not yet accepted).
 - **2025-12** — Inclusion of NVIDIA Cosmos Predict 2.5 (flow-based WFM), GAIA-2 (Wayve), Epona (autoregressive diffusion), DriveLaW (latent WM + planning), OpenDriveVLA, EvoDriveVLA, AutoVLA.
 - **2025-09** — Coverage extended to production-scale Chinese OEM stacks: Huawei WEWA, NIO NWM, XPeng XNGP, Horizon SuperDrive, Li Auto OTA 6.4 (E2E + VLM), Momenta R6 Flywheel.
 
@@ -458,16 +460,19 @@ We particularly welcome:
 
 ## Citation
 
-If you find this survey helpful for your research, please cite:
+If you find this manuscript or repository helpful for your research, please cite the version you used (e.g. arXiv, project PDF, or the final journal article once available):
 
 ```bibtex
-@article{bao2026fm_dwm_survey,
-  title     = {Foundation Models Meet Driving World Models: A Comprehensive Survey},
-  author    = {Bao, Naren and Carballo, Alexander and Javanmardi, Ehsan and Tsukada, Manabu and Takeda, Kazuya},
-  journal   = {IEEE Open Journal of Intelligent Transportation Systems},
-  year      = {2026}
+@misc{bao2026fm_dwm_survey,
+  title        = {Foundation Models Meet Driving World Models: A Comprehensive Survey},
+  author       = {Bao, Naren and Carballo, Alexander and Javanmardi, Ehsan and Tsukada, Manabu and Takeda, Kazuya},
+  year         = {2026},
+  url          = {https://github.com/REPO_OWNER/Foundation-Models-Meet-Driving-World-Models},
+  note         = {Manuscript; planned submission to IEEE Open Journal of Intelligent Transportation Systems (OJ-ITS); not yet peer-reviewed. Prefer the official journal or arXiv BibTeX after publication.}
 }
 ```
+
+Replace `REPO_OWNER` with your GitHub organization or username. When the paper is on arXiv or IEEE Xplore, switch to the venue's recommended `@article` entry (with DOI).
 
 ---
 
