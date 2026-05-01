@@ -1,6 +1,6 @@
-# Foundation Models Meet Driving World Models
+# Foundation Models for Driving World Models
 
-### A Comprehensive Survey on the Convergence of FMs and DWMs for Autonomous Driving
+### A Survey of Encoders, Simulators, Reasoners, and Data Engines
 
 <p align="center">
   <a href="https://arxiv.org/abs/xxxx.xxxxx"><img src="https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b.svg" alt="arXiv"></a>
@@ -19,6 +19,7 @@
 </p>
 
 <p align="center">
+  <a href="#abstract">Abstract</a> •
   <a href="#why-this-survey">Why This Survey</a> •
   <a href="#whats-new">What's New</a> •
   <a href="#taxonomy-at-a-glance">Taxonomy</a> •
@@ -35,6 +36,19 @@
 ---
 
 > If you find this repository helpful, please consider giving it a **star** — it helps the community discover this resource and motivates us to keep it up to date with the fast-moving FM × DWM literature.
+
+---
+
+## Abstract
+
+Foundation models (FMs) are reshaping every stage of driving world models (DWMs) — from how scenes are encoded, to how futures are simulated, to how agents reason about and learn from the resulting rollouts. These FMs — encompassing large language models (LLMs), vision-language models (VLMs), video foundation models, and vision-language-action models (VLAs) — have demonstrated unprecedented capabilities in semantic understanding, physical world reasoning, high-fidelity generation, and sequential decision-making. In this survey, we review this rapidly growing intersection, covering over **110 papers from 2023 to 2026**, encompassing both academic advances (**GAIA-2, Epona, DriveLaW, OpenDriveVLA**) and industry platforms (**Cosmos, Sora, Waymo**). We organize the literature around four functional paradigms:
+
+- **FM as World Encoder** — leveraging FMs for generalizable, semantically rich scene representation;
+- **FM as World Simulator** — using world foundation models (WFMs) for physics-aware, controllable future state simulation;
+- **FM as World Reasoner** — employing LLMs/VLMs for decision-making, planning, and safety verification within simulated worlds; and
+- **FM as Data Engine** — harnessing FM-powered WFMs to build scalable closed-loop data flywheels for AD.
+
+We construct detailed comparison tables across all four dimensions, critically analyze the genuine technical contributions versus industry hype, clarify the core gaps between general video generation models and AD-specific WFMs, and chart a structured research roadmap covering **scaling laws, physical grounding, real-time edge deployment, and safety verification** for safety-critical scenarios. A companion repository with bibliography updates and auxiliary materials is maintained at [**github.com/honalele/Foundation-Models-Meet-Driving-World-Models**](https://github.com/honalele/Foundation-Models-Meet-Driving-World-Models).
 
 ---
 
@@ -464,7 +478,7 @@ If you find this manuscript or repository helpful for your research, please cite
 
 ```bibtex
 @misc{bao2026fm_dwm_survey,
-  title        = {Foundation Models Meet Driving World Models: A Comprehensive Survey},
+  title        = {Foundation Models for Driving World Models: A Survey of Encoders, Simulators, Reasoners, and Data Engines},
   author       = {Bao, Naren and Carballo, Alexander and Javanmardi, Ehsan and Tsukada, Manabu and Takeda, Kazuya},
   year         = {2026},
   url          = {https://github.com/honalele/Foundation-Models-Meet-Driving-World-Models},
