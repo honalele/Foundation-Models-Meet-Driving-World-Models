@@ -467,12 +467,12 @@ If you find this manuscript or repository helpful for your research, please cite
   title        = {Foundation Models Meet Driving World Models: A Comprehensive Survey},
   author       = {Bao, Naren and Carballo, Alexander and Javanmardi, Ehsan and Tsukada, Manabu and Takeda, Kazuya},
   year         = {2026},
-  url          = {https://github.com/REPO_OWNER/Foundation-Models-Meet-Driving-World-Models},
+  url          = {https://github.com/honalele/Foundation-Models-Meet-Driving-World-Models},
   note         = {Manuscript; planned submission to IEEE Open Journal of Intelligent Transportation Systems (OJ-ITS); not yet peer-reviewed. Prefer the official journal or arXiv BibTeX after publication.}
 }
 ```
 
-Replace `REPO_OWNER` with your GitHub organization or username. When the paper is on arXiv or IEEE Xplore, switch to the venue's recommended `@article` entry (with DOI).
+When the paper is on arXiv or IEEE Xplore, switch to the venue's recommended `@article` entry (with DOI).
 
 ---
 
